@@ -16,26 +16,31 @@ import PopupPoll from "./Components/blocks/PopupPoll";
 import Team from "./Components/Pages/Team/Team";
 import Datenschutz from "./Components/Pages/Datenschutz";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      children: [
+        { path: "/", element: <Blocks /> },
+        { path: "/projektidee", element: <Projektidee /> },
+        { path: "/module", element: <Module /> },
+        { path: "/waldmanagement", element: <Waldmanagement /> },
+        { path: "/holzbereitstellung", element: <Holzbereitstellung /> },
+        { path: "/holzverwendung", element: <Holzverwendung /> },
+        { path: "/innoForum", element: <InnoForum /> },
+        { path: "/projektkonsortium", element: <Projektkonsortium /> },
+        { path: "/regulus", element: <Regulus /> },
+        { path: "/imprint", element: <Imprint /> },
+        { path: "/team", element: <Team /> },
+        { path: "/datenschutz", element: <Datenschutz /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Root />,
-    children: [
-      { path: "/", element: <Blocks /> },
-      { path: "/projektidee", element: <Projektidee /> },
-      { path: "/module", element: <Module /> },
-      { path: "/waldmanagement", element: <Waldmanagement /> },
-      { path: "/holzbereitstellung", element: <Holzbereitstellung /> },
-      { path: "/holzverwendung", element: <Holzverwendung /> },
-      { path: "/innoForum", element: <InnoForum /> },
-      { path: "/projektkonsortium", element: <Projektkonsortium /> },
-      { path: "/regulus", element: <Regulus /> },
-      { path: "/imprint", element: <Imprint /> },
-      { path: "/team", element: <Team /> },
-      { path: "/datenschutz", element: <Datenschutz /> },
-    ],
-  },
-]);
+    basename: "/ADAPT-Wald-Holz", // Add this line
+  }
+);
 
 function App() {
   return (
