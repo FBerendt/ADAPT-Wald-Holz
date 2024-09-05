@@ -1,14 +1,11 @@
 import React from "react";
-import adapt from "./../../assets/final_wortbildmarke_adaptwaldholz_2023.jpg";
 import imgBl1 from "./../../assets/IMG_1593.jpg";
 import { CardMedia, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import TopLogo from "./TopLogo";
 
 const BlockOne = () => {
   return (
     <div className="md:my-12 w-full">
-      {/* <TopLogo /> */}
       <Link
         target="_blank"
         to="https://vr-easy.com/tour/hneeberswalde/240524-adaptwaldholz/"
@@ -34,8 +31,8 @@ const BlockOne = () => {
                 color: "black",
                 opacity: "85%",
                 fontSize: { xs: 16, md: 25, lg: 45 },
-                WebkitTextStrokeWidth: "1px", // Adjust stroke width
-                WebkitTextStrokeColor: "white", // Adjust stroke color
+                WebkitTextStrokeWidth: "1px",
+                WebkitTextStrokeColor: "white",
               }}
             >
               ADAPT-Wald-Holz

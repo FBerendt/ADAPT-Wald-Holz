@@ -12,7 +12,7 @@ import InnoForum from "./Components/Pages/InnoForum";
 import Projektkonsortium from "./Components/Pages/Projektkonsortium";
 import Regulus from "./Components/Pages/Regulus";
 import Imprint from "./Components/Pages/Imprint/Imprint";
-import PopupPoll from "./Components/blocks/PopupPoll";
+// import PopupPoll from "./Components/blocks/PopupPoll";
 import Team from "./Components/Pages/Team/Team";
 import Datenschutz from "./Components/Pages/Datenschutz";
 
@@ -45,7 +45,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-      <PopupPoll />
+      {/* <PopupPoll /> */}
       <Box
         sx={{
           display: "flex",

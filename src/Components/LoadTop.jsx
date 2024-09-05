@@ -10,12 +10,7 @@ const LoadTop = () => {
     }
   }, [location]);
 
-  return (
-    <>
-      {/* <h1>Iman Page</h1> */}
-      {/* Page content */}
-    </>
-  );
+  return <>{/* <div>This is a test</div>*/}</>;
 };
 
 export default LoadTop;

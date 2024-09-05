@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
@@ -8,23 +8,12 @@ import Button from "@mui/material/Button";
 
 const PopupPoll = () => {
   const [open, setOpen] = useState(true);
-  // const openPopup = false;
-
-  // useEffect(() => {
-  //   if (localStorage.getItem("openPopup")) {
-  //     setOpen(false);
-  //   } else {
-  //     console.log(123);
-  //   }
-  // }, [open, setOpen]);
 
   const handleClose = () => {
     setOpen(false);
-    // openPopup = localStorage.setItem("openPopup", true);
   };
   const OpenPpoupHandle = () => {
     setOpen(false);
-    // openPopup = localStorage.setItem("openPopup", true);
     window.open(
       "https://eberswalde.questionpro.eu/a/TakeSurvey?tt=jhEcTexfto0dNLD1VJG%2BfQ%3D%3D&lcfpn=false",
       "_blank"

@@ -9,15 +9,15 @@ const ImageViewerCustom = ({ image }) => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [image];
 
-  const openImageViewer = useCallback((index) => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  }, []);
+  // const openImageViewer = useCallback((index) => {
+  //   setCurrentImage(index);
+  //   setIsViewerOpen(true);
+  // }, []);
 
-  const closeImageViewer = () => {
-    setCurrentImage(0);
-    setIsViewerOpen(false);
-  };
+  // const closeImageViewer = () => {
+  //   setCurrentImage(0);
+  //   setIsViewerOpen(false);
+  // };
 
   return (
     <>
