@@ -38,7 +38,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/ADAPT-Wald-Holz", // Add this line
+    basename: "/ADAPT-Wald-Holz",
   }
 );
 
