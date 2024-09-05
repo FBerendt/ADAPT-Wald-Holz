@@ -21,24 +21,24 @@ const router = createBrowserRouter(
     {
       path: "/",
       element: <Root />,
-      // children: [
-      //   { path: "/", element: <Blocks /> },
-      //   { path: "/projektidee", element: <Projektidee /> },
-      //   { path: "/module", element: <Module /> },
-      //   { path: "/waldmanagement", element: <Waldmanagement /> },
-      //   { path: "/holzbereitstellung", element: <Holzbereitstellung /> },
-      //   { path: "/holzverwendung", element: <Holzverwendung /> },
-      //   { path: "/innoForum", element: <InnoForum /> },
-      //   { path: "/projektkonsortium", element: <Projektkonsortium /> },
-      //   { path: "/regulus", element: <Regulus /> },
-      //   { path: "/imprint", element: <Imprint /> },
-      //   { path: "/team", element: <Team /> },
-      //   { path: "/datenschutz", element: <Datenschutz /> },
-      // ],
+      children: [
+        { path: "/", element: <Blocks /> },
+        { path: "/projektidee", element: <Projektidee /> },
+        { path: "/module", element: <Module /> },
+        { path: "/waldmanagement", element: <Waldmanagement /> },
+        { path: "/holzbereitstellung", element: <Holzbereitstellung /> },
+        { path: "/holzverwendung", element: <Holzverwendung /> },
+        { path: "/innoForum", element: <InnoForum /> },
+        { path: "/projektkonsortium", element: <Projektkonsortium /> },
+        { path: "/regulus", element: <Regulus /> },
+        { path: "/imprint", element: <Imprint /> },
+        { path: "/team", element: <Team /> },
+        { path: "/datenschutz", element: <Datenschutz /> },
+      ],
     },
   ],
   {
-    basename: "/ADAPT-Wald-Holz/",
+    basename: "/adapt",
   }
 );
 
