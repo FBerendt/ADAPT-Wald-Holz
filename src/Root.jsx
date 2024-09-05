@@ -6,8 +6,9 @@ import NavigationDrawers from "./Components/Pages/Sidbar/NavigationDrawers";
 const Root = () => {
   return (
     <div className="flex w-full h-full">
-      <NavigationDrawers />
-      <Outlet />
+      <p>This is a test for ERR 404</p>
+      {/* <NavigationDrawers />
+      <Outlet /> */}
     </div>
   );
 };
