@@ -25,7 +25,7 @@ const SidebarMobile = (props) => {
             <img
               onClick={onClose}
               src={adapt}
-              alt="Logo"
+              alt="adapt"
               style={{
                 cursor: "pointer",
                 width: "25%",

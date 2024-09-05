@@ -34,7 +34,7 @@ const SidbarMobileHandler = () => {
         <Link to="/#top">
           <img
             src={adapt}
-            alt="Logo"
+            alt="adapt"
             style={{
               cursor: "pointer",
               width: "50px",

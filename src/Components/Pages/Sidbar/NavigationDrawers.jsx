@@ -36,7 +36,7 @@ const NavigationDrawers = () => {
             <Link to="/#top">
               <img
                 src={adapt}
-                alt="Logo"
+                alt="adapt"
                 style={{
                   cursor: "pointer",
                   width: "40px",
@@ -83,7 +83,7 @@ const NavigationDrawers = () => {
               <Link to="/#top">
                 <img
                   src={adapt}
-                  alt="Logo"
+                  alt="adapt"
                   style={{
                     cursor: "pointer",
                     width: "35%",
