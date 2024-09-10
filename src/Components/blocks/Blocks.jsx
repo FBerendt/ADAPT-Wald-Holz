@@ -26,7 +26,7 @@ const Blocks = () => {
           >
             <iframe
               id="iframe"
-              src="https://vr-easy.com/27323/"
+              src="https://vr-easy.com/28146/"
               allow="xr-spatial-tracking"
               allowFullScreen
               frameBorder="0"

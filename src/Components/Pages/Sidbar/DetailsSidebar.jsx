@@ -41,10 +41,7 @@ const DetailsSidebar = () => {
           </ListItem>
         </Link>
         <Divider />
-        <a
-          href="https://vr-easy.com/tour/hneeberswalde/240524-adaptwaldholz/"
-          target="blank"
-        >
+        <a href="https://vr-easy.com/28146/" target="blank">
           <ListItem button sx={{ ":hover": { color: "#039be5" } }}>
             <ListItemText primary="360° Virtual Tour" />
           </ListItem>
