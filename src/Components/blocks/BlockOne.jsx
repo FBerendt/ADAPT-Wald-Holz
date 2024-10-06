@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const BlockOne = () => {
   return (
     <div className="md:my-12 w-full">
-      <Link target="_blank" to="https://vr-easy.com/28146/">
+      <Link target="_blank" to="https://vr-easy.com/27323/">
         <div className="relative mt-12 w-full px-6">
           <CardMedia
             sx={{
