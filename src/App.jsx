@@ -15,6 +15,7 @@ import Imprint from "./Components/Pages/Imprint/Imprint";
 // import PopupPoll from "./Components/blocks/PopupPoll";
 import Team from "./Components/Pages/Team/Team";
 import Datenschutz from "./Components/Pages/Datenschutz";
+import Aktuelles from "./Components/Pages/Aktuelles/Aktuelles";
 
 const router = createBrowserRouter(
   [
@@ -34,6 +35,7 @@ const router = createBrowserRouter(
         { path: "/imprint", element: <Imprint /> },
         { path: "/team", element: <Team /> },
         { path: "/datenschutz", element: <Datenschutz /> },
+        { path: "/aktuelles", element: <Aktuelles /> },
       ],
     },
   ],

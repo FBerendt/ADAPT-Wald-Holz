@@ -6,6 +6,7 @@ import image3 from "./../../assets/page5.jpg";
 import image5 from "./../../assets/page7.jpg";
 import image7 from "./../../assets/page8.jpg";
 import hnee from "./../../assets/hnee.jpg";
+import Aktuelles from "./../../assets/Aktuelles.jpg";
 
 const CostumData = [
   {
@@ -71,6 +72,13 @@ const CostumData = [
       "https://www.hnee.de/_obj/3F82B1BA-DA83-4819-9B68-63029D679CA1/inline/size/581x/20230313-Kickoff-ADAPT-WaldUlrich_Wessollek-3384.jpg",
     title: "Teammitglieder",
     text: "Im Projekt ADAPT-Wald-Holz entwickelt eine Nachwuchsgruppe ein adaptives Wald-Holz-Managementsystem für die Region Brandenburg-Berlin am Beispiel Waldkiefer. Im Fokus steht eine ökosystem- und ressourcenschonende regionale Wertschöpfungskette - von der Waldbewirtschaftung über die Holzbereitstellung bis zur Holzverarbeitung.",
+  },
+  {
+    id: 10,
+    navigate: "/aktuelles#top",
+    image: Aktuelles,
+    title: "Aktuelles",
+    text: "Im Projekt wird ein Wald-Reallabor eingerichtet, zur Entwicklung und Simulation neuartiger Waldbewirtschaftungsansätze. In einem zweiten Arbeitspaket werden bestehende Holzernte- und Logistikkonzepte technologisch und im Hinblick auf neuartige Möglichkeiten der Datenweitergabe und –verknüpfung weiterentwickelt.  ",
   },
 ];
 export default CostumData;
