@@ -264,7 +264,7 @@ const Aktuelles = () => {
               src="https://www.hnee.de/_obj/3F82B1BA-DA83-4819-9B68-63029D679CA1/inline/size/581x/20230313-Kickoff-ADAPT-WaldUlrich_Wessollek-3384.jpg"
               alt="aktuelles"
               sx={{
-                height: "full",
+                height: { xs: "full", lg: "370px" },
                 width: { xs: "400px", md: "50%" },
                 borderRadius: 0,
               }}

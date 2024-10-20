@@ -6,7 +6,7 @@ import bmfFONA from "./../../assets/BMBF_FONA_Logo_4c.jpg";
 import zalf from "./../../assets/logo-zalf-deutsch.jpg";
 import lefForst from "./../../assets/LFE forst_logo_4c_normal_lang.jpg";
 import hnee from "./../../assets/HNEE_Logo_Dt_gruen.jpg";
-import thuenen from "./../../assets/THUENEN_PRINT_CMYK.jpg";
+import Tu from "./../../assets/Tu.png";
 import mpl from "./../../assets/MPI_Logo_Kolloid-und Grenzflächenforschung_DE_CMYK_black.jpg";
 import regulus from "./../../assets/logo-regulus_mit_subline.png";
 import { Link } from "react-router-dom";
@@ -114,21 +114,22 @@ const Footer = () => {
             </a>
           </Box>
         </Grid>
-        <Grid item xs={6} sm={4} md={2}>
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <Grid item xs={10} sm={10} md={4}>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <a
               target="_blank"
-              className="pointer text-[#4169E1] px-2"
+              className="pointer px-2"
               href="https://www.thuenen.de/de/fachinstitute/waldoekosysteme"
             >
               <img
-                src={thuenen}
+                src={Tu}
                 alt="thuenen"
-                style={{
-                  // width: "180px",
-                  height: { sm: "100px", md: "140px" },
-                  objectFit: "contain",
-                }}
+                className="sm:h-[80px] md:h-[100px] object-fill"
               />
             </a>
           </Box>
@@ -175,7 +176,7 @@ const Footer = () => {
                   height: { sm: "100px", md: "140px" },
                   objectFit: "contain",
                 }}
-              />{" "}
+              />
             </a>
           </Box>
         </Grid>
