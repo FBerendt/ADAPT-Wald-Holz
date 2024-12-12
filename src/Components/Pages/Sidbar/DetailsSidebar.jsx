@@ -6,6 +6,12 @@ const DetailsSidebar = () => {
   return (
     <>
       <Box>
+        <Link to="/aktuelles#top">
+          <ListItem sx={{ ":hover": { color: "#039be5" } }}>
+            <ListItemText primary="Aktuelles" />
+          </ListItem>
+        </Link>
+        <Divider />
         <Link to="/projektidee#top">
           <ListItem button sx={{ ":hover": { color: "#039be5" } }}>
             <ListItemText primary="Die Projektidee" />
