@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Box, CardMedia, Typography } from "@mui/material";
 
 import Footer from "../Footer";
 import LoadTop from "../../LoadTop";
 import SidbarMobileHandler from "../Sidbar/SidbarMobileHandler";
+import AktuellesData from "../../blocks/AktuellesData";
+import AktuellesBlocks from "./AktuellesBlocks";
 
 import aktuelles from "./../../../assets/Aktuelles.jpg";
 
@@ -30,7 +31,7 @@ const Aktuelles = () => {
           src={aktuelles}
           alt="image7"
           sx={{
-            height: { xs: "200px", md: "400px" },
+            height: { xs: "200px", md: "600px" },
             width: "full",
             borderRadius: 0,
           }}
@@ -95,192 +96,58 @@ const Aktuelles = () => {
           <u>Laufzeit, Förderkennzeichen und Projektvolumen</u>: 02/2023 bis
           01/2028; FKZ: 033L301A; 2.56 Mio. € (HNEE- Anteil: 1.13 Mio. €)
         </Typography>
-        <Typography
-          variant="body2"
-          sx={{ textAlign: { md: "justify", fontWeight: 700 }, mb: 2, mt: 2 }}
-        >
-          <u>AKTUELLES:</u>:
-        </Typography>
-        <Box sx={{ display: { xs: "block", md: "flex" }, gap: 6 }}>
-          <CardMedia
-            component="img"
-            src="https://www.hnee.de/_obj/233CB5BD-9272-4218-A5A0-2EF26B40E2A3/inline/size/300x/BildHE.png"
-            alt="aktuelles"
-            sx={{
-              height: { xs: "300px", md: "250px" },
-              width: { xs: "400px", md: "300px" },
-              borderRadius: 0,
-            }}
-          />
-          <Box>
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { md: "justify" }, mb: 2, mt: { xs: 2, md: 0 } }}
-            >
-              Im ADAPT-Wald-Holz Reallabor läuft die Holzerntemaßnahme!
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { md: "justify" }, mb: 2 }}
-            >
-              Verschiedene Holzernteverfahren, vor allem bei erweiterten und
-              FSC-konformen Rückegassenabständen, kamen zum Einsatz. Wir sind
-              auf die Daten und deren Auswertung gespannt.
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { md: "justify" }, mb: 2 }}
-            >
-              Im Waldreallabor untersuchen Nachwuchswissenschaftlerinnen und
-              -wissenschaftler verschiedene Bewirtschaftungsansätze aus
-              verschiedensten Gesichtspunkten: z.B. Wasserhaushalt,
-              Biodiversität, Holzproduktion, mechanische Holzeigenschaften.
-            </Typography>
-          </Box>
-        </Box>
-        <Box
-          sx={{
-            display: { xs: "block", md: "flex" },
-            gap: 2,
-            mt: { xs: 2, md: 6 },
-          }}
-        >
-          <iframe
-            className="w-[full] h-[300px] md:w-[650px] md:h-[370px]"
-            src="https://www.youtube.com/embed/x2L_tD9kE8I"
-            title="WSE 2023: ADAPT-Wald-Holz – On mechanic behavior of Scots Pine under the influence of climate change"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "start",
-              flexDirection: "column",
-              gap: { xs: 2, md: 0 },
-              mt: { xs: 2, md: 0 },
-              width: { lg: "50%" },
-            }}
-          >
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { md: "justify" }, fontWeight: "bold" }}
-            >
-              On mechanic behavior of Scots Pine under the influence of climatic
-              change
-            </Typography>
-            <Typography variant="body2" sx={{ textAlign: { md: "justify" } }}>
-              Our doctoral student Tobias Bender presents his work in this
-              fantastic short viedeo!
-            </Typography>
-          </Box>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            my: { xs: 2, md: 4 },
-          }}
-        >
-          <hr className="w-4/6 border-[1.2px] border-black" />
-        </Box>
-        <Box sx={{ display: { xs: "block", md: "flex" }, gap: 6 }}>
-          <CardMedia
-            component="img"
-            src="https://www.hnee.de/_obj/AED8E96C-06D4-4E6B-9CBF-2F4D72E8D935/inline/size/258x/prop/IMG_0828.JPG"
-            alt="aktuelles"
-            sx={{
-              height: "full",
-              width: { xs: "400px", md: "260px" },
-              borderRadius: 0,
-            }}
-          />
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: { xs: "start", md: "center" },
-              flexDirection: "column",
-              width: { lg: "50%" },
-            }}
-          >
-            <Typography
-              variant="body2"
-              sx={{
-                textAlign: { xs: "start", md: "center" },
-                mt: { xs: 2, md: 0 },
-                fontWeight: "bold",
-              }}
-            >
-              Kick-off-Treffen vom InnoForum Wald & Holz
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { xs: "start", md: "center" } }}
-            >
-              Am 13. Juni 2023 fand die Auftaktveranstaltung vom InnoForum Wald
-              & Holz statt.
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{ textAlign: { xs: "start", md: "center" } }}
-            >
-              Mit Ansätzen aus dem Design Thinking haben Vertreter*innen der
-              gesamten Forst-Holz-Kette das zukünftige Format vom InnoForum
-              mitgestaltet!
-            </Typography>
-          </Box>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            my: { xs: 2, md: 4 },
-          }}
-        >
-          <hr className="w-4/6 border-[1.2px] border-black" />
-        </Box>
-        <Box sx={{ display: "flex", flexDirection: "column", gap: 6 }}>
-          <Typography variant="body2">
-            Am 13. Februar 2023 fand das Projektauftakttreffen am Waldcampus der
-            HNEE statt. Alle Projektpartner*innen, der Projektträger Jülich und
-            das REGULUS-Querschnittsprojekt waren vertreten. Der Projektstart
-            war ein voller Erfolg und die (Vor)Freude auf das Projekt riesig!
-          </Typography>
 
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: { xs: "start", md: "center" },
-              flexDirection: { xs: "column", md: "row" },
-              gap: 2,
-            }}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            variant="body2"
+            sx={{ textAlign: { md: "justify", fontWeight: 700 }, my: 2 }}
           >
-            <CardMedia
-              component="img"
-              src="https://www.hnee.de/_obj/3F82B1BA-DA83-4819-9B68-63029D679CA1/inline/size/581x/20230313-Kickoff-ADAPT-WaldUlrich_Wessollek-3384.jpg"
-              alt="aktuelles"
-              sx={{
-                height: { xs: "full", lg: "370px" },
-                width: { xs: "400px", md: "50%" },
-                borderRadius: 0,
-              }}
-            />{" "}
-            <iframe
-              className="w-[full] h-[300px] md:w-[650px] md:h-[370px]"
-              src="https://www.youtube.com/embed/Sv4CueQ_gLI"
-              title="Prof. Tobias Cremer zum Start des Projektes ADAPT-Wald."
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
-          </Box>
+            <u>AKTUELLES:</u>:
+          </Typography>
+          <hr className="w-4/6 border-[1.2px] border-black" />
         </Box>
       </Box>
-      <Footer />
+      <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8 sm:px-4 md:px-0 flex flex-col items-center">
+        <Box sx={{ width: "90%" }}></Box>
+        <Box
+          sx={{
+            display: { xs: "flex", lg: "grid" },
+            justifyItems: "center",
+            alignContent: "center",
+            flexDirection: { xs: "column", lg: "unset" },
+            gridTemplateColumns: "repeat(auto-fit, minmax(50%, 1fr))",
+            width: "100%",
+          }}
+        >
+          {AktuellesData.map((e, index) => (
+            <div
+              key={e.id}
+              className={`${
+                index % 2 === 0
+                  ? "w-full border md:border-t-0 md:border-l-0 md:border-r-2 pt-5 md:border-b-3 md:border-gray-300 "
+                  : "w-full border md:border-t-0 md:border-r-0 md:border-b-3 pt-5 md:border-gray-300"
+              }
+                ${
+                  index === AktuellesData.length - 1 ||
+                  index === AktuellesData.length - 2
+                    ? "border-b-0"
+                    : ""
+                }
+                `}
+            >
+              <AktuellesBlocks data={e} index={index} />
+            </div>
+          ))}
+        </Box>
+        <Footer />
+      </div>
     </Box>
   );
 };
