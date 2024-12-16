@@ -50,10 +50,10 @@ const Projektidee = () => {
           Wald-Holz-Managementsystem für die Region Brandenburg-Berlin am
           Beispiel der Waldkiefer entwickelt. Im Fokus steht eine ökosystem- und
           ressourcenschonende regionale Wertschöpfungskette – von der
-          Waldbewirtschaftung über die Holzbereitstellung bis zur
+          Waldbewirtschaftung über die Holzbereitstellung bis hin zur
           Holzverarbeitung. Im transdisziplinären Innovationsforum werden
           gemeinsam mit der Praxis Forschungsbedarfe identifiziert, bearbeitet
-          und Ergebnisse der Öffentlichkeit vermittelt.
+          und die Ergebnisse der Öffentlichkeit vermittelt.
         </Typography>
       </Box>
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1, mt: 1 }}>
