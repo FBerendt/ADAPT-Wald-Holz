@@ -6,8 +6,6 @@ import Footer from "./Footer";
 import LoadTop from "../LoadTop";
 import SidbarMobileHandler from "./Sidbar/SidbarMobileHandler";
 
-import image8 from "./../../assets/page8.jpg";
-
 const Holzverwendung = () => {
   return (
     <Box className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8">
@@ -28,8 +26,8 @@ const Holzverwendung = () => {
       <Box sx={{ display: "flex", justifyContent: "center", marginY: 4 }}>
         <CardMedia
           component="img"
-          src={image8}
-          alt="image7"
+          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-holzverwendung.jpg?raw=true"
+          alt="Holzverwendung"
           sx={{
             height: { xs: "200px", md: "400px" },
             width: "full",

@@ -6,9 +6,6 @@ import Footer from "./Footer";
 import SidbarMobileHandler from "./Sidbar/SidbarMobileHandler";
 import LoadTop from "../LoadTop";
 
-import image6 from "./../../assets/Ramazan.jpg";
-import image5 from "./../../assets/page5.jpg";
-
 const Waldmanagement = () => {
   return (
     <Box className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8">
@@ -29,7 +26,7 @@ const Waldmanagement = () => {
       <Box sx={{ display: "flex", justifyContent: "center", my: 4 }}>
         <CardMedia
           component="img"
-          src={image5}
+          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-waldmanagement.jpg?raw=true"
           alt="image5"
           sx={{
             height: { xs: "200px", md: "400px" },
@@ -130,8 +127,8 @@ const Waldmanagement = () => {
         <Box sx={{ display: "flex", justifyContent: "center", mt: 8 }}>
           <CardMedia
             component="img"
-            src={image6}
-            alt="image6"
+            src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/Waldmanagement-lidar.jpg?raw=true"
+            alt="Waldmanagement"
             sx={{
               height: { xs: "200px", md: "400px" },
               width: { xs: "full", md: "50%" },

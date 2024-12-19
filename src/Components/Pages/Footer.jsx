@@ -1,15 +1,7 @@
 import React from "react";
-import { Box, Divider, Grid } from "@mui/material";
-
-import bmbfGefördert from "./../../assets/BMBF_gefördert_deutsch.jpg";
-import bmfFONA from "./../../assets/BMBF_FONA_Logo_4c.jpg";
-import zalf from "./../../assets/logo-zalf-deutsch.jpg";
-import lefForst from "./../../assets/LFE forst_logo_4c_normal_lang.jpg";
-import hnee from "./../../assets/HNEE_Logo_Dt_gruen.jpg";
-import Tu from "./../../assets/Tu.png";
-import mpl from "./../../assets/MPI_Logo_Kolloid-und Grenzflächenforschung_DE_CMYK_black.jpg";
-import regulus from "./../../assets/logo-regulus_mit_subline.png";
 import { Link } from "react-router-dom";
+
+import { Box, Divider, Grid } from "@mui/material";
 
 const Footer = () => {
   return (
@@ -35,7 +27,7 @@ const Footer = () => {
               href="https://www.hnee.de"
             >
               <img
-                src={hnee}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-HNEE-logo.jpg?raw=true"
                 alt="hnee"
                 style={{
                   // width: "180px",
@@ -59,7 +51,7 @@ const Footer = () => {
               href="https://forst.brandenburg.de/lfb/de/ueber-uns/landeskompetenzzentrum-lfe"
             >
               <img
-                src={lefForst}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-lefForst-logo.jpg?raw=true"
                 alt="lefForst"
                 style={{
                   width: "130px",
@@ -84,7 +76,7 @@ const Footer = () => {
               href="https://www.mpikg.mpg.de"
             >
               <img
-                src={mpl}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-mpl-logo.jpg?raw=true"
                 alt="mpl"
                 style={{
                   width: "300px",
@@ -103,7 +95,7 @@ const Footer = () => {
               href="https://www.zalf.de/de/Seiten/ZALF.aspx"
             >
               <img
-                src={zalf}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-zalf-logo.jpg?raw=true"
                 alt="zalf"
                 style={{
                   width: "100px",
@@ -127,8 +119,8 @@ const Footer = () => {
               href="https://www.thuenen.de/de/fachinstitute/waldoekosysteme"
             >
               <img
-                src={Tu}
-                alt="thuenen"
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-thunen-logo.png?raw=true"
+                alt="thunen"
                 className="sm:h-[80px] md:h-[100px] object-fill"
               />
             </a>
@@ -150,7 +142,7 @@ const Footer = () => {
               href="https://www.bmbf.de/bmbf/de/home/home_node.html"
             >
               <img
-                src={bmbfGefördert}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-bmbfGef%C3%B6rdert-logo.jpg?raw=true"
                 alt="bmbfGefördert"
                 style={{
                   width: "180px",
@@ -169,7 +161,7 @@ const Footer = () => {
               href="https://www.fona.de/de/"
             >
               <img
-                src={bmfFONA}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-fona-logo.jpg?raw=true"
                 alt="FONA"
                 style={{
                   width: "180px",
@@ -184,10 +176,9 @@ const Footer = () => {
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <Link to="/regulus#top">
               <img
-                src={regulus}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/footer-regulus_logo.png?raw=true"
                 alt="regulus"
                 style={{
-                  // width: "170px",
                   height: { sm: "100px", md: "150px" },
                   objectFit: "contain",
                 }}

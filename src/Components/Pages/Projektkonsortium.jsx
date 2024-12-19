@@ -6,8 +6,6 @@ import LoadTop from "../LoadTop";
 import Footer from "./Footer";
 import SidbarMobileHandler from "./Sidbar/SidbarMobileHandler";
 
-import hnee from "./../../assets/hnee.jpg";
-
 const Projektkonsortium = () => {
   return (
     <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8 ">
@@ -37,7 +35,7 @@ const Projektkonsortium = () => {
       >
         <CardMedia
           component="img"
-          src={hnee}
+          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-hnee.jpg?raw=true"
           alt="image8"
           sx={{
             height: { xs: "200px", md: "400px" },

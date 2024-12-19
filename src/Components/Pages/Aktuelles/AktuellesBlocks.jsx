@@ -19,9 +19,10 @@ const AktuellesBlocks = ({ data }) => {
             image={data.imageLink}
             alt="image"
             sx={{
-              height: "250px",
+              height: "350px",
               overflow: "hidden",
-              display: "inline-grid",
+              objectFit: `${data.objectFit}`,
+              objectPosition: `${data.objectPosition}`,
               "&:hover": {
                 transform: "scale(1.05)",
                 transformOrigin: "40% 20%",
@@ -32,7 +33,7 @@ const AktuellesBlocks = ({ data }) => {
 
         {data.videoLink && (
           <iframe
-            className="w-[full] h-[250px] md:w-[650px] md:h-[250px]"
+            className="w-[full] h-[350px] md:w-[650px] md:h-[350px]"
             src={data.videoLink}
             title="WSE 2023: ADAPT-Wald-Holz – On mechanic behavior of Scots Pine under the influence of climate change"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

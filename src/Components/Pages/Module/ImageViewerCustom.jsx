@@ -38,7 +38,7 @@ const ImageViewerCustom = ({ image }) => {
               <CardMedia
                 component="img"
                 src={`${src}?auto=compress&cs=tinysrgb&w=400`}
-                alt="example1"
+                alt="Image"
                 sx={{
                   maxHeight: { xs: "45vh", md: "50vh", lg: "50vh" },
                   width: "100%",

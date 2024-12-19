@@ -5,8 +5,6 @@ import Footer from "./Footer";
 import LoadTop from "../LoadTop";
 import SidbarMobileHandler from "./Sidbar/SidbarMobileHandler";
 
-import image3 from "./../../assets/page3.jpg";
-
 const InnoForum = () => {
   return (
     <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8">
@@ -34,8 +32,8 @@ const InnoForum = () => {
         >
           <CardMedia
             component="img"
-            src={image3}
-            alt="example1"
+            src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-innoForum.jpg?raw=true"
+            alt="InnoForum"
             sx={{
               height: { xs: "200px", md: "400px" },
               width: "full",

@@ -5,8 +5,6 @@ import DensityMediumIcon from "@mui/icons-material/DensityMedium";
 
 import SidebarMobile from "./SidebarMobile";
 
-import adapt from "./../../../assets/final_wortbildmarke_adaptwaldholz_2023.jpg";
-
 const SidbarMobileHandler = () => {
   const [open, setOpen] = useState(false);
 
@@ -33,7 +31,7 @@ const SidbarMobileHandler = () => {
       >
         <Link to="/#top">
           <img
-            src={adapt}
+            src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/final_wortbildmarke_logo.jpg?raw=true"
             alt="adapt"
             style={{
               cursor: "pointer",

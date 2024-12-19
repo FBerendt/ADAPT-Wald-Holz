@@ -6,8 +6,6 @@ import Footer from "../Footer";
 import SidbarMobileHandler from "../Sidbar/SidbarMobileHandler";
 import ImageViewerCustom from "./ImageViewerCustom";
 
-import image2 from "./../../../assets/page2-1.png";
-
 const Module = () => {
   return (
     <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8">
@@ -25,7 +23,11 @@ const Module = () => {
           Die Module
         </Typography>
         <Box sx={{ display: "flex", justifyContent: "center", my: 4 }}>
-          <ImageViewerCustom image={image2}></ImageViewerCustom>
+          <ImageViewerCustom
+            image={
+              "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-module.png?raw=true"
+            }
+          ></ImageViewerCustom>
         </Box>
       </Box>
       <Box

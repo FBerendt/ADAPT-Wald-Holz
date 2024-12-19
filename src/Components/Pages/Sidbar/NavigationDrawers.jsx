@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 import LoadTop from "../../LoadTop";
 import DetailsSidebar from "./DetailsSidebar";
-import adapt from "./../../../assets/final_wortbildmarke_adaptwaldholz_2023.jpg";
 
 const NavigationDrawers = () => {
   const [sideBarSize, setSideBarSize] = useState(true);
@@ -35,7 +34,7 @@ const NavigationDrawers = () => {
           >
             <Link to="/#top">
               <img
-                src={adapt}
+                src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/final_wortbildmarke_logo.jpg?raw=true"
                 alt="adapt"
                 style={{
                   cursor: "pointer",
@@ -82,7 +81,7 @@ const NavigationDrawers = () => {
             <ListItem>
               <Link to="/#top">
                 <img
-                  src={adapt}
+                  src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/final_wortbildmarke_logo.jpg?raw=true"
                   alt="adapt"
                   style={{
                     cursor: "pointer",

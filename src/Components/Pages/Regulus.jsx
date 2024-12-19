@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Typography, CardMedia } from "@mui/material";
 
 import Footer from "./Footer";
-import image4 from "./../../assets/page4.jpg";
 import SidbarMobileHandler from "./../Pages/Sidbar/SidbarMobileHandler";
 import LoadTop from "../LoadTop";
 
@@ -25,8 +24,8 @@ const Regulus = () => {
       <Box sx={{ display: "flex", justifyContent: "center", my: 4 }}>
         <CardMedia
           component="img"
-          src={image4}
-          alt="image4"
+          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-regulus.jpg?raw=true"
+          alt="Regulus"
           sx={{
             maxHeight: { xs: "35vh", md: "35vh", lg: "35vh" },
             width: "100%",

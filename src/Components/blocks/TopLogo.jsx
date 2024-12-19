@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Box } from "@mui/material";
 
-import adapt from "./../../assets/final_wortbildmarke_adaptwaldholz_2023.jpg";
-
 const TopLogo = () => {
   return (
     <Box sx={{ mt: 4 }}>
@@ -14,7 +12,11 @@ const TopLogo = () => {
         }}
       >
         <Link to="/#top">
-          <img src={adapt} alt="adapt" className="w-60" />
+          <img
+            src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/final_wortbildmarke_logo.jpg?raw=true"
+            alt="adapt"
+            className="w-60"
+          />
         </Link>
       </Box>
     </Box>

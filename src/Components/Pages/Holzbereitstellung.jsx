@@ -5,7 +5,6 @@ import { Box, CardMedia, Typography } from "@mui/material";
 import Footer from "./Footer";
 import SidbarMobileHandler from "./Sidbar/SidbarMobileHandler";
 
-import image7 from "./../../assets/page7.jpg";
 import LoadTop from "../LoadTop";
 
 const Holzbereitstellung = () => {
@@ -28,8 +27,8 @@ const Holzbereitstellung = () => {
       <Box sx={{ display: "flex", justifyContent: "center", my: 4 }}>
         <CardMedia
           component="img"
-          src={image7}
-          alt="image6"
+          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-holzbereitstellung.jpg?raw=true"
+          alt="holzbereitstellung"
           sx={{
             height: { xs: "200px", md: "400px" },
             width: { xs: "full", md: "full" },

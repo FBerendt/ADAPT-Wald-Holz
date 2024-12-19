@@ -1,7 +1,5 @@
 import React from "react";
 import { Typography, Box, Card, CardContent, CardMedia } from "@mui/material";
-import adapt from "./../../../assets/Ramazan.jpg";
-import blankProfile from "./../../../assets/blank-profile.png";
 
 const TeamDetails = ({ image, name, address, phone, email, page }) => {
   return (
@@ -29,7 +27,11 @@ const TeamDetails = ({ image, name, address, phone, email, page }) => {
             width: { xs: "100%", sm: 150 },
             height: { md: 170 },
           }}
-          image={image ? image : blankProfile}
+          image={
+            image
+              ? image
+              : "https://github.com/FBerendt/wald-reallabor-photo/blob/main/blank-profile-image.png?raw=true"
+          }
           alt={`${name}'s photo`}
         />
         <Box
