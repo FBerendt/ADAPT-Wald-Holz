@@ -25,7 +25,8 @@ const TeamData = [
         address: "Hochschule für nachhaltige Entwicklung Eberswalde",
         phone: "+49 3334 657 276",
         email: "Tobias.Bender[at]hnee.de",
-        image: "",
+        image:
+          "https://github.com/FBerendt/wald-reallabor-photo/blob/main/team-tobias_bender.jpg?raw=true",
         page: "",
       },
       {
