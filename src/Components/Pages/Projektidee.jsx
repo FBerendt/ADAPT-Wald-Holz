@@ -48,10 +48,10 @@ const Projektidee = () => {
           Wald-Holz-Managementsystem für die Region Brandenburg-Berlin am
           Beispiel der Waldkiefer entwickelt. Im Fokus steht eine ökosystem- und
           ressourcenschonende regionale Wertschöpfungskette – von der
-          Waldbewirtschaftung über die Holzbereitstellung bis zur
+          Waldbewirtschaftung über die Holzbereitstellung bis hin zur
           Holzverarbeitung. Im transdisziplinären Innovationsforum werden
           gemeinsam mit der Praxis Forschungsbedarfe identifiziert, bearbeitet
-          und Ergebnisse der Öffentlichkeit vermittelt.
+          und die Ergebnisse der Öffentlichkeit vermittelt.
         </Typography>
       </Box>
       <Box sx={{ display: "flex", flexDirection: "column", gap: 1, mt: 1 }}>
@@ -67,15 +67,15 @@ const Projektidee = () => {
           kommt eine möglichst langfristige Kohlenstoffbindung durch die
           Erhöhung und Verlängerung der stofflichen Nutzung von Holz. Die Region
           Brandenburg-Berlin, mit ihren historisch bedingten kieferndominierten
-          Wäldern, ist durch den Klimawandel und die Extremwitterung der letzten
+          Wäldern, ist durch den Klimawandel und die Extremwetterereignisse der letzten
           Jahre besonders gefährdet. Vor dem Hintergrund zurückgehender
           Nadelholzbestände und einer gleichzeitig steigenden Nachfrage nach
           Holz, ist in der Projektregion eine enge Verzahnung von adaptivem
           Waldmanagement und effizienter stofflicher Holznutzung von enormer
-          Bedeutung. Dazu wird im Verbundprojekt ADAPT-Wald-Holz ein
+          Bedeutung. Im Verbundprojekt ADAPT-Wald-Holz wird daher ein
           transdisziplinär arbeitendes Waldreallabor eingerichtet, um den
-          Einfluss unterschiedlicher Waldbewirtschaftungsstrategien auf die
-          zentralen Ökosystemleistungen zu untersuchen: Holzproduktion
+          Einfluss unterschiedlicher Waldbewirtschaftungsstrategien auf
+          zentrale Ökosystemleistungen zu untersuchen: Holzproduktion
           (Nutzung), Kohlenstoffbindung (Klimaschutz) sowie Grund- und
           Trinkwasserbereitstellung (Wasserhaushalt). Die regionale
           Wertschöpfung von Kiefernholz im Holzbau soll durch eine möglichst
@@ -83,8 +83,8 @@ const Projektidee = () => {
           Entwicklung neuer Verwendungsmöglichkeiten für regionale Holzprodukte,
           die Weiterentwicklung von Normen zum konstruktiven Holzbau und der
           Ausbau eines interdisziplinären Dialogs (zwischen Forstwirtschaft,
-          Materialwissenschaft, Design, Architektur, Bauingenieurswesen) legen
-          den Grundstein, um die Holzbauquote in Berlin-Brandenburg zu steigern.
+          Materialwissenschaft, Design, Architektur und Bauingenieurswesen) legen
+          den Grundstein für die Steigerung der Holzbauquote in Brandenburg-Berlin.
         </Typography>
 
         <Typography variant="h6" sx={{ textAlign: { md: "justify" } }}>
