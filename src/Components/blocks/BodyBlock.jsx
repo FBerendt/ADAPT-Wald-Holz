@@ -30,6 +30,8 @@ const BodyBlock = ({ data }) => {
           alt="image"
           onClick={panoClickHandler}
           sx={{
+            objectFit: `${data.objectFit}`,
+            objectPosition: `${data.objectPosition}`,
             height: "250px",
             cursor: "pointer",
             overflow: "hidden",

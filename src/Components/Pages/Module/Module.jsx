@@ -4,7 +4,7 @@ import { Box, Typography } from "@mui/material";
 
 import Footer from "../Footer";
 import SidbarMobileHandler from "../Sidbar/SidbarMobileHandler";
-import ImageViewerCustom from "./ImageViewerCustom";
+// import ImageViewerCustom from "./ImageViewerCustom";
 
 const Module = () => {
   return (
@@ -23,11 +23,16 @@ const Module = () => {
           Die Module
         </Typography>
         <Box sx={{ display: "flex", justifyContent: "center", my: 4 }}>
-          <ImageViewerCustom
+          {/* <ImageViewerCustom
             image={
               "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-module.png?raw=true"
             }
-          ></ImageViewerCustom>
+          ></ImageViewerCustom> */}
+          <img
+            className="w-1/2"
+            src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-module.png?raw=true"
+            alt="Module"
+          />
         </Box>
       </Box>
       <Box
