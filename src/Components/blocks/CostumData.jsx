@@ -1,6 +1,16 @@
 const CostumData = [
   {
     id: 1,
+    navigate: "/aktuelles#top",
+    image:
+      "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-Aktuelles.jpg?raw=true",
+    title: "Aktuelles",
+    text: "Im Projekt wird ein Wald-Reallabor eingerichtet, zur Entwicklung und Simulation neuartiger Waldbewirtschaftungsansätze. In einem zweiten Arbeitspaket werden bestehende Holzernte- und Logistikkonzepte technologisch und im Hinblick auf neuartige Möglichkeiten der Datenweitergabe und –verknüpfung weiterentwickelt.  ",
+    objectFit: "cover",
+    objectPosition: "center",
+  },
+  {
+    id: 2,
     navigate: "/projektidee#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-projektidee.jpg?raw=true",
@@ -10,7 +20,7 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 2,
+    id: 3,
     navigate: "/module#tops",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-module.png?raw=true",
@@ -20,7 +30,7 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 3,
+    id: 4,
     navigate: "/waldmanagement#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-waldmanagement.jpg?raw=true",
@@ -30,7 +40,7 @@ const CostumData = [
     objectPosition: "button",
   },
   {
-    id: 4,
+    id: 5,
     navigate: "/holzbereitstellung#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-holzbereitstellung.jpg?raw=true",
@@ -40,7 +50,7 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 5,
+    id: 6,
     navigate: "/holzverwendung#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-holzverwendung.jpg?raw=true",
@@ -50,7 +60,7 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 6,
+    id: 7,
     navigate: "/innoForum#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-innoForum.jpg?raw=true",
@@ -60,7 +70,7 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 7,
+    id: 8,
     navigate: "/projektkonsortium#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-hnee.jpg?raw=true",
@@ -70,7 +80,7 @@ const CostumData = [
     objectPosition: "button",
   },
   {
-    id: 8,
+    id: 9,
     navigate: "/regulus#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-regulus.jpg?raw=true",
@@ -80,22 +90,12 @@ const CostumData = [
     objectPosition: "center",
   },
   {
-    id: 9,
+    id: 10,
     navigate: "/team#top",
     image:
       "https://github.com/FBerendt/wald-reallabor-photo/blob/main/Teammitglieder.png?raw=true",
     title: "Teammitglieder",
     text: "Im Projekt ADAPT-Wald-Holz entwickelt eine Nachwuchsgruppe ein adaptives Wald-Holz-Managementsystem für die Region Brandenburg-Berlin am Beispiel Waldkiefer. Im Fokus steht eine ökosystem- und ressourcenschonende regionale Wertschöpfungskette - von der Waldbewirtschaftung über die Holzbereitstellung bis zur Holzverarbeitung.",
-    objectFit: "cover",
-    objectPosition: "center",
-  },
-  {
-    id: 10,
-    navigate: "/aktuelles#top",
-    image:
-      "https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-Aktuelles.jpg?raw=true",
-    title: "Aktuelles",
-    text: "Im Projekt wird ein Wald-Reallabor eingerichtet, zur Entwicklung und Simulation neuartiger Waldbewirtschaftungsansätze. In einem zweiten Arbeitspaket werden bestehende Holzernte- und Logistikkonzepte technologisch und im Hinblick auf neuartige Möglichkeiten der Datenweitergabe und –verknüpfung weiterentwickelt.  ",
     objectFit: "cover",
     objectPosition: "center",
   },

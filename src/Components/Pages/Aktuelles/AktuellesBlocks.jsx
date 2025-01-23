@@ -33,7 +33,7 @@ const AktuellesBlocks = ({ data }) => {
 
         {data.videoLink && (
           <iframe
-            className="w-[full] h-[350px] md:w-[650px] md:h-[350px]"
+            className="w-[full] h-[350px] lg:w-[550px] md:h-[350px]"
             src={data.videoLink}
             title="WSE 2023: ADAPT-Wald-Holz – On mechanic behavior of Scots Pine under the influence of climate change"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

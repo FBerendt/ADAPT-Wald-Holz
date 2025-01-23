@@ -9,9 +9,12 @@ import AktuellesBlocks from "./AktuellesBlocks";
 
 const Aktuelles = () => {
   return (
-    <Box className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8">
+    <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8 sm:px-4 md:px-0 flex flex-col items-center">
       <LoadTop />
-      <SidbarMobileHandler />
+      <Box sx={{ width: "90%" }}>
+        <SidbarMobileHandler />
+      </Box>
+
       <Typography
         variant="h5"
         sx={{
@@ -23,37 +26,25 @@ const Aktuelles = () => {
       >
         AKTUELLES
       </Typography>
-      {/* <Box sx={{ display: "flex", justifyContent: "center", marginY: 4 }}>
-        <CardMedia
-          component="img"
-          src="https://github.com/FBerendt/wald-reallabor-photo/blob/main/main-page-Aktuelles.jpg?raw=true"
-          alt="Aktuelles"
-          sx={{
-            height: { xs: "200px", md: "600px" },
-            width: "full",
-            borderRadius: 0,
-          }}
-        />
-      </Box> */}
-      <div className="w-full ml-4 md:ml-24 pr-4 md:pr-24 mb-8 sm:px-4 md:px-0 flex flex-col items-center">
-        <Box
-          sx={{
-            display: { xs: "flex", lg: "grid" },
-            justifyItems: "center",
-            alignContent: "center",
-            flexDirection: { xs: "column", lg: "unset" },
-            gridTemplateColumns: "repeat(auto-fit, minmax(50%, 1fr))",
-            width: "100%",
-          }}
-        >
-          {AktuellesData.map((e, index) => (
-            <div
-              key={e.id}
-              className={`${
-                index % 2 === 0
-                  ? "w-full border md:border-t-0 md:border-l-0 md:border-r-2 pt-5 md:border-b-3 md:border-gray-300 "
-                  : "w-full border md:border-t-0 md:border-r-0 md:border-b-3 pt-5 md:border-gray-300"
-              }
+
+      <Box
+        sx={{
+          display: { xs: "flex", lg: "grid" },
+          justifyItems: "center",
+          alignContent: "center",
+          flexDirection: { xs: "column", lg: "unset" },
+          gridTemplateColumns: "repeat(auto-fit, minmax(50%, 1fr))",
+          width: "100%",
+        }}
+      >
+        {AktuellesData.map((e, index) => (
+          <div
+            key={e.id}
+            className={`${
+              index % 2 === 0
+                ? "w-full border md:border-t-0 md:border-l-0 md:border-r-2 pt-5 md:border-b-3 md:border-gray-300 "
+                : "w-full border md:border-t-0 md:border-r-0 md:border-b-3 pt-5 md:border-gray-300"
+            }
                 ${
                   index === AktuellesData.length - 1 ||
                   index === AktuellesData.length - 2
@@ -61,14 +52,13 @@ const Aktuelles = () => {
                     : ""
                 }
                 `}
-            >
-              <AktuellesBlocks data={e} index={index} />
-            </div>
-          ))}
-        </Box>
-        <Footer />
-      </div>
-    </Box>
+          >
+            <AktuellesBlocks data={e} index={index} />
+          </div>
+        ))}
+      </Box>
+      <Footer />
+    </div>
   );
 };
 
