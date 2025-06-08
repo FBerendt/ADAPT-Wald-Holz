@@ -78,6 +78,29 @@ const AktuellesData = [
     textOne:
       "Am 13. Februar 2023 fand das Projektauftakttreffen am Waldcampus der HNEE statt. Alle Projektpartner*innen, der Projektträger Jülich und das REGULUS-Querschnittsprojekt waren vertreten. Der Projektstart war ein voller Erfolg und die (Vor)Freude auf das Projekt riesig!",
   },
+  {
+    id: 9,
+    imageLink:
+      "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Potsdamer_Tag_Wissenschaften.jpg",
+    title: "ADAPT-Wald-Holz am Potsdamer Tag der Wissenschaften",
+    textOne:
+      "Der Potsdamer Tag der Wissenschaften zog 8.000 Besucherinnen und Besucher an die Stände von 40 Hochschulen und Forschungseinrichtungen. Mit dabei war auch das Projekt ADAPT-Wald-Holz von der Hochschule für nachhaltige Entwicklung Eberswalde, das mit Mitmachaktionen für Jung und Alt, Laien und Expert*innen sowie Familien und Singles begeisterte.",
+    textTwo: (
+      <>
+        <b>Der Andrang war groß:</b> Die Besucherinnen und Besucher konnten sich
+        mit einer VR-Brille in das Wald-Reallabor beamen, Fragen an die
+        entwickelte Forst-KI richten, mit Kiefer-Holzscheiben Kunstdrucke
+        gestalten, mit einem John Deere Harvester eine Holzerntemaßnahme
+        simulieren oder einfach über die Schönheit der Wälder plaudern.
+        <br />
+        Für die Nachwuchsgruppe aus dem REGULUS-Verbund war es ein tolles
+        Erlebnis, das an diesem Tag viel Wertschätzung für ihre Arbeit von den
+        Gästen erhielt.
+      </>
+    ),
+    objectFit: "contain",
+    objectPosition: "center",
+  },
 ];
 
 export default AktuellesData;
