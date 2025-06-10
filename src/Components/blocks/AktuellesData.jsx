@@ -1,5 +1,70 @@
 const AktuellesData = [
   {
+    id: 10,
+    imageLink:
+      "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Aktuelles-Exkursion_Verj%C3%BCngungsmonitoring.jpg",
+    title: "Exkursion nach Kienhorst zum Tag des offenen Reallabors",
+    textOne: (
+      <>
+        <p>
+          Zum{" "}
+          <a
+            href="https://www.reallabor-netzwerk.de/news_offenes-reallabor2025_save-the-date.php"
+            style={{
+              color: "blue",
+              fontStyle: "italic",
+              textDecoration: "underline",
+            }}
+          >
+            Tag des offenen Reallabors
+          </a>{" "}
+          laden wir Sie recht herzlich zu eine
+          <b> Exkursion</b> ins Wald-Reallabor Kienhorst (www.wald-reallabor.de)
+          am Montag den 30.06.2025 ein.
+        </p>
+      </>
+    ),
+    textTwo: (
+      <>
+        <p>
+          Das <b>Thema des Tages ist die Erfassung der Verjüngung</b>. Nach
+          einer kurzen <b>Vorstellung des Reallabors</b> (durch Ferréol Berendt
+          und Julia Kaplick) stellt das Team des Sachgebietes Waldinventuren des
+          LFE (Paula Schlösser und Torsten Wiebke){" "}
+          <b>die „kleine Schwester“ der VWM vor</b>. Eine Methode mit der auch
+          auf <b>Bestandes- und Revierebene</b> der <b>Verjüngungszustand</b>{" "}
+          repräsentativ erfasst werden kann. Im Anschluss kann die neue Methode
+          und die damit einhergehende PC-Anwendung vor Ort live getestet werden.
+        </p>
+      </>
+    ),
+    objectFit: "contain",
+    objectPosition: "center",
+  },
+  {
+    id: 9,
+    imageLink:
+      "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Potsdamer_Tag_Wissenschaften.jpg",
+    title: "ADAPT-Wald-Holz am Potsdamer Tag der Wissenschaften",
+    textOne:
+      "Der Potsdamer Tag der Wissenschaften zog 8.000 Besucherinnen und Besucher an die Stände von 40 Hochschulen und Forschungseinrichtungen. Mit dabei war auch das Projekt ADAPT-Wald-Holz von der Hochschule für nachhaltige Entwicklung Eberswalde, das mit Mitmachaktionen für Jung und Alt, Laien und Expert*innen sowie Familien und Singles begeisterte.",
+    textTwo: (
+      <>
+        <b>Der Andrang war groß:</b> Die Besucherinnen und Besucher konnten sich
+        mit einer VR-Brille in das Wald-Reallabor beamen, Fragen an die
+        entwickelte Forst-KI richten, mit Kiefer-Holzscheiben Kunstdrucke
+        gestalten, mit einem John Deere Harvester eine Holzerntemaßnahme
+        simulieren oder einfach über die Schönheit der Wälder plaudern.
+        <br />
+        Für die Nachwuchsgruppe aus dem REGULUS-Verbund war es ein tolles
+        Erlebnis, das an diesem Tag viel Wertschätzung für ihre Arbeit von den
+        Gästen erhielt.
+      </>
+    ),
+    objectFit: "contain",
+    objectPosition: "center",
+  },
+  {
     id: 1,
     imageLink:
       "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Aktuelles-Olaf-scholz.jpg",
@@ -77,29 +142,6 @@ const AktuellesData = [
     title: "Prof. Tobias Cremer zum Start des Projektes ADAPT-Wald-Holz",
     textOne:
       "Am 13. Februar 2023 fand das Projektauftakttreffen am Waldcampus der HNEE statt. Alle Projektpartner*innen, der Projektträger Jülich und das REGULUS-Querschnittsprojekt waren vertreten. Der Projektstart war ein voller Erfolg und die (Vor)Freude auf das Projekt riesig!",
-  },
-  {
-    id: 9,
-    imageLink:
-      "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Potsdamer_Tag_Wissenschaften.jpg",
-    title: "ADAPT-Wald-Holz am Potsdamer Tag der Wissenschaften",
-    textOne:
-      "Der Potsdamer Tag der Wissenschaften zog 8.000 Besucherinnen und Besucher an die Stände von 40 Hochschulen und Forschungseinrichtungen. Mit dabei war auch das Projekt ADAPT-Wald-Holz von der Hochschule für nachhaltige Entwicklung Eberswalde, das mit Mitmachaktionen für Jung und Alt, Laien und Expert*innen sowie Familien und Singles begeisterte.",
-    textTwo: (
-      <>
-        <b>Der Andrang war groß:</b> Die Besucherinnen und Besucher konnten sich
-        mit einer VR-Brille in das Wald-Reallabor beamen, Fragen an die
-        entwickelte Forst-KI richten, mit Kiefer-Holzscheiben Kunstdrucke
-        gestalten, mit einem John Deere Harvester eine Holzerntemaßnahme
-        simulieren oder einfach über die Schönheit der Wälder plaudern.
-        <br />
-        Für die Nachwuchsgruppe aus dem REGULUS-Verbund war es ein tolles
-        Erlebnis, das an diesem Tag viel Wertschätzung für ihre Arbeit von den
-        Gästen erhielt.
-      </>
-    ),
-    objectFit: "contain",
-    objectPosition: "center",
   },
 ];
 
