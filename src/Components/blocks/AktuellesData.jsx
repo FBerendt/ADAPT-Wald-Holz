@@ -1,5 +1,11 @@
 const AktuellesData = [
   {
+    id: 11,
+    videoLink: "https://www.youtube.com/embed/03ATdm_kSKk",
+    title: "Harvesteraufarbeitung in der teilmechanisierten Holzernte",
+    textOne: "",
+  },
+  {
     id: 10,
     imageLink:
       "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Aktuelles-Exkursion_Verj%C3%BCngungsmonitoring.jpg",
