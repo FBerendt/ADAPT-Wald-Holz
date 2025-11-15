@@ -41,6 +41,12 @@ const DetailsSidebar = () => {
           </Link>
         </List>
         <Divider />
+        <Link to="/publications#top">
+          <ListItem button sx={{ ":hover": { color: "#039be5" } }}>
+            <ListItemText primary="Publications" />
+          </ListItem>
+        </Link>
+        <Divider />
         <Link to="/innoForum#top">
           <ListItem button sx={{ ":hover": { color: "#039be5" } }}>
             <ListItemText primary="InnoForum Wald und Holz" />

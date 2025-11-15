@@ -1,5 +1,15 @@
 const CostumData = [
   {
+    id: 0,
+    navigate: "/publications#top",
+    image:
+      "https://raw.githubusercontent.com/FBerendt/wald-reallabor-photo/refs/heads/main/Publications.png",
+    title: "Publications",
+    text: "Die Ergebnisse dieses Projekts wurden in mehreren wissenschaftlichen Fachzeitschriften veröffentlicht und auf verschiedenen internationalen Konferenzen vorgestellt. Hier können Sie alle zugehörigen Publikationen, darunter Artikel, Berichte und Konferenzbeiträge, einsehen und darauf zugreifen. ",
+    objectFit: "cover",
+    objectPosition: "center",
+  },
+  {
     id: 1,
     navigate: "/aktuelles#top",
     image:

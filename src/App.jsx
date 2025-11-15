@@ -16,6 +16,7 @@ import Imprint from "./Components/Pages/Imprint/Imprint";
 import Team from "./Components/Pages/Team/Team";
 import Datenschutz from "./Components/Pages/Datenschutz";
 import Aktuelles from "./Components/Pages/Aktuelles/Aktuelles";
+import Publications from "./Components/Pages/Publications/Publications";
 
 const router = createBrowserRouter(
   [
@@ -36,6 +37,7 @@ const router = createBrowserRouter(
         { path: "/team", element: <Team /> },
         { path: "/datenschutz", element: <Datenschutz /> },
         { path: "/aktuelles", element: <Aktuelles /> },
+        { path: "/publications", element: <Publications /> },
       ],
     },
   ],
